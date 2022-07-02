@@ -9,6 +9,7 @@ async function getApi(path, resourceType) {
 	const res = await axios.get(`${api.baseUrl}?q=mental`, {
 		headers: {
 			Authorization: `Bearer ${api.apiKey}`,
+			'Access-Control-Allow-Origin': '*',
 		},
 	});
 
