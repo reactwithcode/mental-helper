@@ -1,5 +1,5 @@
 import '../styles/globals.css';
-import '../styles/_Home.scss';
+import '../styles/Home.scss';
 import { Provider } from 'react-redux';
 
 import store from '../redux/configureStore';

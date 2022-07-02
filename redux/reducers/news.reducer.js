@@ -17,7 +17,7 @@ export function newNews(state = initialNewsState, action) {
 			return {
 				...state,
 				loading: false,
-				newNews: action.newNews.splice(0, 10),
+				newNews: action.newNews.splice(0, 3),
 			};
 		case type.GET_NEW_NEWS_FAILED:
 			return {

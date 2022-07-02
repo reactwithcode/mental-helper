@@ -3,7 +3,7 @@ import rootReducer from './reducers/index';
 
 import { composeWithDevTools } from 'redux-devtools-extension';
 import createSagaMiddleware from 'redux-saga';
-import rootSaga from './reducers/index';
+import rootSaga from './sagas/index';
 
 const sagaMiddleware = createSagaMiddleware();
 const middlewares = [sagaMiddleware];
