@@ -27,12 +27,11 @@ function News() {
 							alt=""
 						/>
 					</figure>
-					{newNewsData && (
-						<article className="news news_1">
-							<h3>{newNewsData[0]?.title}</h3>
-							<p>{newNewsData[0]?.description}</p>
-						</article>
-					)}
+
+					<article className="news news_1">
+						<h3>{newNewsData[0]?.title}</h3>
+						<p>{newNewsData[0]?.description}</p>
+					</article>
 
 					<svg
 						className="stairs"
@@ -72,12 +71,11 @@ function News() {
 						/>
 					</svg>
 
-					{newNewsData && (
-						<article className=" news news_2">
-							<h3>{newNewsData[1]?.title}</h3>
-							<p>{newNewsData[1]?.description}</p>
-						</article>
-					)}
+					<article className=" news news_2">
+						<h3>{newNewsData[1]?.title}</h3>
+						<p>{newNewsData[1]?.description}</p>
+					</article>
+
 					{/* girl and paper planes */}
 					<div className="fly_container">
 						<svg
@@ -277,12 +275,12 @@ function News() {
 							</defs>
 						</svg>
 					</div>
-					{newNewsData && (
-						<article className=" news news_3">
-							<h3>{newNewsData[2]?.title}</h3>
-							<p>{newNewsData[2]?.description}</p>
-						</article>
-					)}
+
+					<article className=" news news_3">
+						<h3>{newNewsData[2]?.title}</h3>
+						<p>{newNewsData[2]?.description}</p>
+					</article>
+
 					<figure className="furniture">
 						<img
 							src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/780593/furniture%20scene.png"
